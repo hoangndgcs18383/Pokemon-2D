@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Potion
   description: Recovers 20 HP.
-  icon: {fileID: 7276433724785721205, guid: b1bab0fc7d7740d45a7c9a84dc8dfdb1, type: 3}
+  icon: {fileID: -8131178587875080484, guid: 824051128e8a5fb43bbd08cef814323b, type: 3}
   hpAmount: 20
   restoreMaxHP: 0
   ppAmout: 0

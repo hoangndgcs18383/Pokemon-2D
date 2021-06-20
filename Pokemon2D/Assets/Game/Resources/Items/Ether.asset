@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Ether
   description: "It restores the PP of a Pok\xE9mon's selected move by a maximum of
     10 points."
-  icon: {fileID: -8534305925744614984, guid: b1bab0fc7d7740d45a7c9a84dc8dfdb1, type: 3}
+  icon: {fileID: -6029252377726450809, guid: 824051128e8a5fb43bbd08cef814323b, type: 3}
   hpAmount: 0
   restoreMaxHP: 0
   ppAmout: 10

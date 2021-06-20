@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Antidote
   description: "A spray-type medicine. It lifts the effect of poison from one Pok\xE9mon."
-  icon: {fileID: -1081591851393649430, guid: b1bab0fc7d7740d45a7c9a84dc8dfdb1, type: 3}
+  icon: {fileID: 6480224008132779862, guid: 824051128e8a5fb43bbd08cef814323b, type: 3}
   hpAmount: 0
   restoreMaxHP: 0
   ppAmout: 0

@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Max Ether
   description: "It fully restores the PP of a single selected move that has been
     learned by the target Pok\xE9mon."
-  icon: {fileID: 9067768386112651645, guid: b1bab0fc7d7740d45a7c9a84dc8dfdb1, type: 3}
+  icon: {fileID: 6844171712047822244, guid: 824051128e8a5fb43bbd08cef814323b, type: 3}
   hpAmount: 0
   restoreMaxHP: 0
   ppAmout: 0
