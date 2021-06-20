@@ -1,6 +1,5 @@
 # Pokemon-2D
 Pokemon 2D is RPG popular in 1990s
-## Created by Hoang
 ## Features
 - Grid-Based Movement
 - Turn-Base Battle System
@@ -13,5 +12,7 @@ Pokemon 2D is RPG popular in 1990s
 - Accuracy/Evasion
 - Improved Battle Architecture
 - Move Priorities
+## Features Update
+- Inventory UI
 ## Tutorial by Game Dev Experiments
 - https://www.youtube.com/channel/UCswdeChigkx5uN1PwgfTqzQ
