@@ -1,6 +1,9 @@
 # Pokemon-2D
 Pokemon 2D is RPG popular in 1990s
 ## Created by Hoang
+- Using WSAD key to move character => Up, Down, Left, Right
+- Press Enter to open Menu
+- Press Z to select and X to back.
 ## Features
 - Grid-Based Movement
 - Turn-Base Battle System
