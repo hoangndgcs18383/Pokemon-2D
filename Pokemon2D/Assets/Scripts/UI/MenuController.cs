@@ -22,6 +22,7 @@ public class MenuController : MonoBehaviour
     public void OpenMenu()
     {
         menu.SetActive(true);
+        UpdateItemSelection();
     }
     public void CloseMenu()
     {
@@ -41,6 +42,7 @@ public class MenuController : MonoBehaviour
         }
 
         selectedItem = Mathf.Clamp(selectedItem, 0, menuItems.Count - 1);
+
         if(preSelection != selectedItem)
             UpdateItemSelection();
 
