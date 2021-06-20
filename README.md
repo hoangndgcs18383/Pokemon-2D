@@ -1,5 +1,5 @@
 # Pokemon-2D
-Pokemon 2D is RPG popular in 1990s
+Pokemon 2D is RPG popular in 1993s
 ## Created by Hoang
 - Using WSAD key to move character => Up, Down, Left, Right
 - Press Enter to open Menu
