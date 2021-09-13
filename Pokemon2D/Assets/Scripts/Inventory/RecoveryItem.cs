@@ -21,4 +21,17 @@ public class RecoveryItem : ItemBase
     [Header("Revive")]
     [SerializeField] bool revive;
     [SerializeField] bool maxRevive;
+
+    public override bool Use(Pokemon pokemon)
+    {
+        if(hpAmount > 0)
+        {
+            if(pokemon.HP == pokemon.MaxHP)
+            {
+                return false;
+            }
+            pokemon.IncreaseHP(hpAmount);
+        }
+        return true;
+    }
 }

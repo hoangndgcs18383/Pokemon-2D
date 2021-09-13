@@ -31,7 +31,9 @@ public class InventoryUI : MonoBehaviour
     }
     private void Start()
     {
-        UpdateItemList();   
+        UpdateItemList();
+
+        inventory.OnUpdated += UpdateItemList;
     }
     void UpdateItemList()
     {
@@ -82,7 +84,7 @@ public class InventoryUI : MonoBehaviour
         {
             Action onSelect = () =>
             {
-
+                StartCoroutine(UseItem());
             };
 
             Action onBackPattyScreen = () =>
@@ -109,6 +111,24 @@ public class InventoryUI : MonoBehaviour
         itemDescription.text = slots.Description;
 
         HandleScrolling();
+    }
+    
+    IEnumerator UseItem()
+    {
+        state = InventoryUIState.Busy;
+
+        var useItem = inventory.UseItem(selectedItem, partyScreen.SelectedMember);
+
+        if(useItem != null)
+        {
+            yield return DialogManager.Instance.ShowDialogText($"The player use {useItem.Name}");
+        }
+        else
+        {
+            yield return DialogManager.Instance.ShowDialogText($"It won't have any affect");
+        }
+
+        ClosePartyScreen();
     }
 
     void HandleScrolling()
